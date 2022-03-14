@@ -1,0 +1,17 @@
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\bin\Debug\net6.0-windows\Equação2Grau.exe
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\bin\Debug\net6.0-windows\Equação2Grau.deps.json
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\bin\Debug\net6.0-windows\Equação2Grau.runtimeconfig.json
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\bin\Debug\net6.0-windows\Equação2Grau.dll
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\bin\Debug\net6.0-windows\Equação2Grau.pdb
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\Equação2Grau.csproj.AssemblyReference.cache
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\Equação2Grau.Form1.resources
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\Equação2Grau.csproj.GenerateResource.cache
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\Equação2Grau.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\Equação2Grau.AssemblyInfoInputs.cache
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\Equação2Grau.AssemblyInfo.cs
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\Equação2Grau.csproj.CoreCompileInputs.cache
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\Equação2Grau.dll
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\refint\Equação2Grau.dll
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\Equação2Grau.pdb
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\Equação2Grau.genruntimeconfig.cache
+C:\Users\bryan\source\repos\Equação2Grau\Equação2Grau\obj\Debug\net6.0-windows\ref\Equação2Grau.dll

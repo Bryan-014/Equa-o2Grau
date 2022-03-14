@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equação2Grau", "Equação2Grau\Equação2Grau.csproj", "{C971AC40-FA27-4403-A66D-C74331F377A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C971AC40-FA27-4403-A66D-C74331F377A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C971AC40-FA27-4403-A66D-C74331F377A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C971AC40-FA27-4403-A66D-C74331F377A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C971AC40-FA27-4403-A66D-C74331F377A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4600FEAA-3F8F-41DB-A0A5-CEEBB1651187}
+	EndGlobalSection
+EndGlobal
