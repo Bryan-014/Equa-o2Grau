@@ -28,35 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbA = new System.Windows.Forms.Label();
+            this.LbA = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btCalcular = new System.Windows.Forms.Button();
-            this.txtC = new System.Windows.Forms.TextBox();
-            this.txtB = new System.Windows.Forms.TextBox();
-            this.txtA = new System.Windows.Forms.TextBox();
-            this.lbC = new System.Windows.Forms.Label();
-            this.lbB = new System.Windows.Forms.Label();
+            this.BtCalcular = new System.Windows.Forms.Button();
+            this.TxtC = new System.Windows.Forms.TextBox();
+            this.TxtB = new System.Windows.Forms.TextBox();
+            this.TxtA = new System.Windows.Forms.TextBox();
+            this.LbC = new System.Windows.Forms.Label();
+            this.LbB = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lbA
+            // LbA
             // 
-            this.lbA.AutoSize = true;
-            this.lbA.Location = new System.Drawing.Point(6, 19);
-            this.lbA.Name = "lbA";
-            this.lbA.Size = new System.Drawing.Size(18, 15);
-            this.lbA.TabIndex = 0;
-            this.lbA.Text = "A:";
+            this.LbA.AutoSize = true;
+            this.LbA.Location = new System.Drawing.Point(6, 19);
+            this.LbA.Name = "LbA";
+            this.LbA.Size = new System.Drawing.Size(18, 15);
+            this.LbA.TabIndex = 0;
+            this.LbA.Text = "A:";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btCalcular);
-            this.groupBox1.Controls.Add(this.txtC);
-            this.groupBox1.Controls.Add(this.txtB);
-            this.groupBox1.Controls.Add(this.txtA);
-            this.groupBox1.Controls.Add(this.lbC);
-            this.groupBox1.Controls.Add(this.lbB);
-            this.groupBox1.Controls.Add(this.lbA);
+            this.groupBox1.Controls.Add(this.BtCalcular);
+            this.groupBox1.Controls.Add(this.TxtC);
+            this.groupBox1.Controls.Add(this.TxtB);
+            this.groupBox1.Controls.Add(this.TxtA);
+            this.groupBox1.Controls.Add(this.LbC);
+            this.groupBox1.Controls.Add(this.LbB);
+            this.groupBox1.Controls.Add(this.LbA);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(365, 126);
@@ -64,54 +64,54 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Calcular";
             // 
-            // btCalcular
+            // BtCalcular
             // 
-            this.btCalcular.Location = new System.Drawing.Point(282, 97);
-            this.btCalcular.Name = "btCalcular";
-            this.btCalcular.Size = new System.Drawing.Size(75, 23);
-            this.btCalcular.TabIndex = 6;
-            this.btCalcular.Text = "Calcular";
-            this.btCalcular.UseVisualStyleBackColor = true;
-            this.btCalcular.Click += new System.EventHandler(this.btCalcular_Click);
+            this.BtCalcular.Location = new System.Drawing.Point(282, 97);
+            this.BtCalcular.Name = "BtCalcular";
+            this.BtCalcular.Size = new System.Drawing.Size(75, 23);
+            this.BtCalcular.TabIndex = 6;
+            this.BtCalcular.Text = "Calcular";
+            this.BtCalcular.UseVisualStyleBackColor = true;
+            this.BtCalcular.Click += new System.EventHandler(this.BtCalcular_Click);
             // 
-            // txtC
+            // TxtC
             // 
-            this.txtC.Location = new System.Drawing.Point(29, 65);
-            this.txtC.Name = "txtC";
-            this.txtC.Size = new System.Drawing.Size(220, 23);
-            this.txtC.TabIndex = 5;
+            this.TxtC.Location = new System.Drawing.Point(29, 65);
+            this.TxtC.Name = "TxtC";
+            this.TxtC.Size = new System.Drawing.Size(220, 23);
+            this.TxtC.TabIndex = 5;
             // 
-            // txtB
+            // TxtB
             // 
-            this.txtB.Location = new System.Drawing.Point(29, 40);
-            this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(220, 23);
-            this.txtB.TabIndex = 4;
+            this.TxtB.Location = new System.Drawing.Point(29, 40);
+            this.TxtB.Name = "TxtB";
+            this.TxtB.Size = new System.Drawing.Size(220, 23);
+            this.TxtB.TabIndex = 4;
             // 
-            // txtA
+            // TxtA
             // 
-            this.txtA.Location = new System.Drawing.Point(29, 16);
-            this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(220, 23);
-            this.txtA.TabIndex = 3;
+            this.TxtA.Location = new System.Drawing.Point(29, 16);
+            this.TxtA.Name = "TxtA";
+            this.TxtA.Size = new System.Drawing.Size(220, 23);
+            this.TxtA.TabIndex = 3;
             // 
-            // lbC
+            // LbC
             // 
-            this.lbC.AutoSize = true;
-            this.lbC.Location = new System.Drawing.Point(6, 68);
-            this.lbC.Name = "lbC";
-            this.lbC.Size = new System.Drawing.Size(18, 15);
-            this.lbC.TabIndex = 2;
-            this.lbC.Text = "C:";
+            this.LbC.AutoSize = true;
+            this.LbC.Location = new System.Drawing.Point(6, 68);
+            this.LbC.Name = "LbC";
+            this.LbC.Size = new System.Drawing.Size(18, 15);
+            this.LbC.TabIndex = 2;
+            this.LbC.Text = "C:";
             // 
-            // lbB
+            // LbB
             // 
-            this.lbB.AutoSize = true;
-            this.lbB.Location = new System.Drawing.Point(6, 43);
-            this.lbB.Name = "lbB";
-            this.lbB.Size = new System.Drawing.Size(17, 15);
-            this.lbB.TabIndex = 1;
-            this.lbB.Text = "B:";
+            this.LbB.AutoSize = true;
+            this.LbB.Location = new System.Drawing.Point(6, 43);
+            this.LbB.Name = "LbB";
+            this.LbB.Size = new System.Drawing.Size(17, 15);
+            this.LbB.TabIndex = 1;
+            this.LbB.Text = "B:";
             // 
             // Form1
             // 
@@ -133,13 +133,13 @@
 
         #endregion
 
-        private Label lbA;
+        private Label LbA;
         private GroupBox groupBox1;
-        private Button btCalcular;
-        private TextBox txtC;
-        private TextBox txtB;
-        private TextBox txtA;
-        private Label lbC;
-        private Label lbB;
+        private Button BtCalcular;
+        private TextBox TxtC;
+        private TextBox TxtB;
+        private TextBox TxtA;
+        private Label LbC;
+        private Label LbB;
     }
 }

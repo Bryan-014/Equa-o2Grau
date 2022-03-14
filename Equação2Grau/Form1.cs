@@ -2,37 +2,37 @@ namespace Equação2Grau
 {
     public partial class Form1 : Form
     {
-        bool errors = false;
+        bool haveErrors = false;
 
         public Form1() => InitializeComponent();
 
-        private void btCalcular_Click(object sender, EventArgs e)
+        private void BtCalcular_Click(object sender, EventArgs e)
         {
-            errors = false;
+            haveErrors = false;
             ValidEmptyTextBoxes();
 
-            double a = ValidComponents(txtA.Text);
-            double b = ValidComponents(txtB.Text);
-            double c = ValidComponents(txtC.Text);
+            double a = ValidComponent(TxtA.Text.Replace(".", ","));
+            double b = ValidComponent(TxtB.Text.Replace(".", ","));
+            double c = ValidComponent(TxtC.Text.Replace(".", ","));
             
             if (a == 0)
             {
                 MessageBox.Show("O valor de A não pode ser 0!!!", "Atenção", MessageBoxButtons.OK);
-                errors = true;
+                haveErrors = true;
             }
 
-            if (errors)
+            if (haveErrors)
                 return;
 
             double rootDelt = Math.Sqrt(CalculateDelt(a, b, c));
 
-            if (errors)
+            if (haveErrors)
                 return;
 
             double doubleA = a * 2;
 
-            double xOne = CalculateXOne(b, rootDelt, doubleA);
-            double xTwo = CalculateXTwo(b, rootDelt, doubleA);
+            double xOne = CalculateX(b, rootDelt, doubleA, "positive");
+            double xTwo = CalculateX(b, rootDelt, doubleA, "negative");
 
             MessageBox.Show("O valor de X¹ é: " + xOne + " e o valor de x² é: " + xTwo, "Resultado", MessageBoxButtons.OK);
         }
@@ -41,32 +41,32 @@ namespace Equação2Grau
         {
             double squareB = varB * varB;
 
-            double x = squareB - 4 * varA * varC;
+            double delt = squareB - 4 * varA * varC;
 
-            if (x < 0)
+            if (delt < 0)
             {
                 MessageBox.Show("Valor de delta não pode ser negativo!!!", "Atenção", MessageBoxButtons.OK);
-                errors = true;
+                haveErrors = true;
             }
 
-            return x;
+            return delt;
         }
 
-        private static double CalculateXOne(double varB, double delt, double varA)
+        private static double CalculateX(double varB, double delt, double varA, string operation)
         {
-            double up = -varB + delt;
-
+            double up = 0;
+            if (operation == "positive")
+            {
+                up = -varB + delt;
+            }
+            else if (operation == "negative")
+            {
+                up = -varB - delt;
+            }
             return up / varA;
         }
 
-        private static double CalculateXTwo(double varB, double delt, double varA)
-        {
-            double up = -varB - delt;
-
-            return up / varA;
-        }
-
-        private double ValidComponents(string component)
+        private double ValidComponent(string component)
         {
             bool isError = false;
             foreach (var item in component)
@@ -74,31 +74,31 @@ namespace Equação2Grau
                 string charter = item.ToString();
                 if (!charter.All(char.IsDigit))
                 {
-                    if (charter != "-" && charter != "," && charter != ".")
+                    if (charter != "-" && charter != ",")
                         isError = true;
                 }
             }
 
             if (isError)
             {
-                MessageBox.Show(component + " é inválido!!!", "Atenção", MessageBoxButtons.OK);
-                errors = true;
+                MessageBox.Show("O valor: " + component + " é inválido!!!", "Atenção", MessageBoxButtons.OK);
+                haveErrors = true;
                 return 0;
             }
 
-            return Convert.ToDouble(component.Replace(".", ","));
+            return Convert.ToDouble(component);
         }
 
         private void ValidEmptyTextBoxes()
         {
-            if (txtA.Text == "")
-                txtA.Text = "0";
+            if (TxtA.Text == "")
+                TxtA.Text = "0";
 
-            if (txtB.Text == "")
-                txtB.Text = "0";
+            if (TxtB.Text == "")
+                TxtB.Text = "0";
 
-            if (txtC.Text == "")
-                txtC.Text = "0";
+            if (TxtC.Text == "")
+                TxtC.Text = "0";
         }        
     }
 }
